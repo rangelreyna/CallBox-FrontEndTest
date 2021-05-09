@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav Menu with Dropdown</title>
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+  <header class="header">
+    <nav class="container">
+      <a href="#" class="logo"><h1>Logo</h1></a>
+
+      <div class="hamburger-btn">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="overlay">
+        <ul class="nav-links-wrapper container">
+          <li class="link-box"><a href="#" class="link">Home</a></li>
+          <li class="link-box has-sublinks">
+            <a href="#" class="link">
+              Inventory
+              <img class="chevron" src="./assets/icon-chevron-down.svg" alt="icon-chevron-down">
+            </a>
+
+            <ul class="nav-sublinks-wrapper">
+              <li class="link-box"><a href="#" class="link">New</a></li>
+              <li class="link-box"><a href="#" class="link">Used</a></li>
+              <li class="link-box"><a href="#" class="link">Cars</a></li>
+              <li class="link-box"><a href="#" class="link">Trucks</a></li>
+              <li class="link-box"><a href="#" class="link">Suv's</a></li>
+            </ul>
+          </li>
+          <li class="link-box"><a href="#" class="link">About Us</a></li>
+          <li class="link-box"><a href="#" class="link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <script src="./main.js" defer></script>
+</body>
+</html>
